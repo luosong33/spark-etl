@@ -31,7 +31,8 @@ object Json2mapUtil {
     val sc = spark.sparkContext
 
 //    var path = "data/json/0c53547271974bcd93fde1bb6a8c477f.json"
-    var path = "data/json/"
+//    var path = "data/json/"
+    var path = "/bigdata/ls/data/"
     val peopleDF = spark.read.json(path)
     if (flag == "key"){
       val peopleDF_ = peopleDF.select(columns)

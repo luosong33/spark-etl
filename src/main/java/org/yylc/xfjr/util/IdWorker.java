@@ -1,6 +1,6 @@
 package org.yylc.xfjr.util;
 
-/* 分布式唯一id */
+/** 分布式唯一id */
 public class IdWorker {
     private final long workerId;  //  机器标识位数
     private final static long twepoch = 1361753741828L;

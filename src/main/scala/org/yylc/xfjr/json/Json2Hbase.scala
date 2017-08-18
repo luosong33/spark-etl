@@ -134,7 +134,7 @@ object Json2Hbase {
     var str = ""
     for (elem <- phone) { str = elem._2 }
     val rowKey = RowKeyUtil.rowKeyUtil(str)
-    HbaseUtil.sparkWriteHBase(rowKey, listMap)
+    HbaseUtil.sparkWriteHBase("communication:contact_list",rowKey, listMap)
   }
 
 

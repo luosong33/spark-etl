@@ -1,6 +1,6 @@
 package org.yylc.xfjr.util;
 
-public class Ontact_list {
+public class OntactistLEntity {
     private String call_cnt;
     private String call_in_cnt;
     private String call_in_len;
