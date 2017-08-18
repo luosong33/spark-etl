@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e01e1d0f-49e5-4485-8ec6-75c2c0eb748c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/json/0c53547271974bcd93fde1bb6a8c477f.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/ContactList2hbase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/HBaseBasic01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/HBaseBasic02.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/HbaseBasic03.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/KafkaUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/OperateFilesUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/RowKeyUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/TestPhoenix.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/json/0c53547271974bcd93fde1bb6a8c477f.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-etl.iml" afterPath="$PROJECT_DIR$/spark-etl.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/IdWorker.java" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/IdWorker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/JsonUtil.java" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/JsonUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/org/yylc/xfjr/json/HbaseUtil.scala" afterPath="$PROJECT_DIR$/src/main/scala/org/yylc/xfjr/json/HbaseUtil.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/org/yylc/xfjr/json/Json2Hbase.scala" afterPath="$PROJECT_DIR$/src/main/scala/org/yylc/xfjr/json/Json2Hbase.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/org/yylc/xfjr/json/Json2mapUtil.scala" afterPath="$PROJECT_DIR$/src/main/scala/org/yylc/xfjr/json/Json2mapUtil.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/Ontact_list.java" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/OntactistLEntity.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -628,12 +608,20 @@
       <workItem from="1502705421047" duration="22141000" />
       <workItem from="1502766580005" duration="69487000" />
       <workItem from="1502948863248" duration="459000" />
-      <workItem from="1502949766074" duration="51221000" />
+      <workItem from="1502949766074" duration="51306000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1503052435637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1503052435637</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143679000" />
+    <option name="totallyTimeSpent" value="143764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -668,6 +656,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
