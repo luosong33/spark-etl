@@ -15,21 +15,52 @@ import java.util.*;
 public class JsonUtil {
 
     //  处理json字符串
-    public static List<Map<String,String>> json2listMap (String json){
-        ArrayList<Map<String,String>> listMap = new ArrayList<>();
+    public static List<Map<String, String>> json2listMap(String json) {
+        ArrayList<Map<String, String>> listMap = new ArrayList<>();
+        ReadWriteUtil.write("/bigdata/ls/kafka_error/dataOrig.txt",json);
 
-        JSONObject jobj = JSON.parseObject(json);
-        JSONObject push_data = (JSONObject) jobj.get("push_data");
-        JSONArray arr = push_data.getJSONArray("contact_list");  //  数组
-        for (Iterator iterator = arr.iterator(); iterator.hasNext();) {
-            HashMap<String, String> hash = new HashMap<>();
-            JSONObject job = (JSONObject) iterator.next();  //  每条数据
-            Set<String> keys = job.keySet();
-            for (String key : keys){  //  一条所有字段
-                System.out.println(key+"::::::::::::::"+job.get(key));
-                hash.put(key,job.get(key).toString());
+        JSONObject jobj = null;
+        try {
+            jobj = JSON.parseObject(json);
+            JSONObject push_data = (JSONObject) jobj.get("push_data");
+            JSONArray arr = push_data.getJSONArray("contact_list");  //  数组
+            for (Iterator iterator = arr.iterator(); iterator.hasNext(); ) {
+                HashMap<String, String> hash = new HashMap<>();
+                JSONObject job = (JSONObject) iterator.next();  //  每条数据
+                Set<String> keys = job.keySet();
+                for (String key : keys) {  //  一条所有字段
+//                System.out.println(key+"::::::::::::::"+job.get(key));
+                    hash.put(key, job.get(key).toString());
+                }
+                listMap.add(hash);
             }
-            listMap.add(hash);
+        } catch (Exception e) {
+//            e.printStackTrace();
+            System.out.println("===================json解析错误:==================="/*+json*/);
+            ReadWriteUtil.write("/bigdata/ls/kafka_error/dataError.txt",json);
+        }
+        return listMap;
+    }
+
+    //  处理json字符串
+    public static List<Map<String, String>> json2listMap_w(String json) {
+        ArrayList<Map<String, String>> listMap = new ArrayList<>();
+        JSONObject jobj = null;
+        try {
+            jobj = JSON.parseObject(json);
+            JSONObject push_data = (JSONObject) jobj.get("push_data");
+            JSONArray arr = push_data.getJSONArray("contact_list");  //  数组
+            for (Iterator iterator = arr.iterator(); iterator.hasNext(); ) {
+                HashMap<String, String> hash = new HashMap<>();
+                JSONObject job = (JSONObject) iterator.next();  //  每条数据
+                Set<String> keys = job.keySet();
+                for (String key : keys) {  //  一条所有字段
+                    hash.put(key, job.get(key).toString());
+                }
+                listMap.add(hash);
+            }
+        } catch (Exception e) {
+            System.out.println("===================json解析错误:==================="/*+json*/);
         }
         return listMap;
     }
@@ -44,7 +75,7 @@ public class JsonUtil {
             e.printStackTrace();
         }
         reader.startArray();
-        while(reader.hasNext()) {
+        while (reader.hasNext()) {
             OntactistLEntity ontact_list = reader.readObject(OntactistLEntity.class);
             // handle vo ...
             ArrayList<Map<String, String>> maps = new ArrayList<>();

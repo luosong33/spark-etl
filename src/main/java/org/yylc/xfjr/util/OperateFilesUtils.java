@@ -2,6 +2,7 @@ package org.yylc.xfjr.util;
 
 import java.io.*;
 import java.util.List;
+import java.util.Map;
 
 public class OperateFilesUtils {
 
@@ -45,6 +46,12 @@ public class OperateFilesUtils {
         String str = null;
         while((str = bufferedReader.readLine()) != null)
         {
+            List<Map<String, String>> listMap = JsonUtil.json2listMap(str);
+            /*for (Map<String, String> map : listMap) {
+                for (Map.Entry<String, String> entry : map.entrySet()) {
+                    System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+                }
+            }*/
             System.out.println(str);
         }
 
@@ -186,7 +193,8 @@ public class OperateFilesUtils {
         }*/
         //copyFile2TempFile(fileList, tempFile);
 //        copyFile2TempFile(new File("c://a.txt"), tempFile);
-        traverseFolder("E:\\git\\spark-etl\\data\\json");
+//        traverseFolder("E:\\git\\spark-etl\\data\\json");
+        traverseFolder("D:\\下载\\20170804");
 //        traverseFolder("E:\\git\\spark-etl\\data\\json\\0c53547271974bcd93fde1bb6a8c477f.txt");
     }
 }
