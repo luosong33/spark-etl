@@ -2,54 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e01e1d0f-49e5-4485-8ec6-75c2c0eb748c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/DataProcessHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/InsertContactJava.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/KafkaConsumerSimple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/MultipleImportDatas.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/ReadWriteUtil.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/HBaseBasic01.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/HbaseBasic03.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/DateUtil$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/DateUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/HbaseUtil$$anonfun$1$$anonfun$apply$1$$anonfun$apply$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/HbaseUtil$$anonfun$1$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/HbaseUtil$$anonfun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/HbaseUtil$$anonfun$2$$anonfun$apply$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/HbaseUtil$$anonfun$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/HbaseUtil$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/HbaseUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/Json2Hbase$$anonfun$json2hbase$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/Json2Hbase$$anonfun$json2hbaseContact_list$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/Json2Hbase$$anonfun$json2hbaseContact_list$2$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/Json2Hbase$$anonfun$json2hbaseContact_list$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/Json2Hbase$$anonfun$json2hbaseContact_list$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/Json2Hbase$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/Json2Hbase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/Json2mapUtil$$anonfun$main$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/Json2mapUtil$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/Json2mapUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/RowKeyUtil$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/json/RowKeyUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/util/HBaseBasic01.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/util/HbaseBasic03.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Test$$anonfun$main$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Test$$anonfun$main$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Test$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Test.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/util/ContactList2hbase.class" afterPath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/util/ContactList2hbase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/util/HBaseBasic02.class" afterPath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/util/HBaseBasic02.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/util/JsonUtil.class" afterPath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/util/JsonUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/util/KafkaUtil.class" afterPath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/util/KafkaUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/util/OperateFilesUtils.class" afterPath="$PROJECT_DIR$/target/classes/org/yylc/xfjr/util/OperateFilesUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/CommunDetailsHandle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/ContactList2hbase.java" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/ContactList2hbase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/HBaseBasic02.java" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/HBaseBasic02.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/JsonUtil.java" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/JsonUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/KafkaUtil.java" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/KafkaUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/OperateFilesUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/OperateFilesUtils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -114,21 +68,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KafkaConsumerSimple.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KafkaConsumerSimple.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/KafkaConsumerSimple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="148">
+              <caret line="62" column="36" lean-forward="false" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OperateFilesUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/OperateFilesUtils.java">
+      <file leaf-file-name="CommunDetailsHandle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/CommunDetailsHandle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="414">
+              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -240,12 +194,13 @@
         <option value="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/RowKeyUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/OperateFilesUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/KafkaUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/KafkaConsumerSimple.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/ReadWriteUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/JsonUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/HBaseBasic02.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/ContactList2hbase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/KafkaConsumerSimple.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/CommunDetailsHandle.java" />
       </list>
     </option>
   </component>
@@ -440,7 +395,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.spark-etl [clean,package]">
+  <component name="RunManager" selected="Application.CommunDetailsHandle">
+    <configuration name="CommunDetailsHandle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.yylc.xfjr.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.yylc.xfjr.util.CommunDetailsHandle" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spark-etl" />
+      <envs />
+    </configuration>
     <configuration name="ContactList2hbase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -468,25 +442,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="org.yylc.xfjr.util.HBaseBasic02" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="spark-etl" />
-      <envs />
-    </configuration>
-    <configuration name="OperateFilesUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.yylc.xfjr.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.yylc.xfjr.util.OperateFilesUtils" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -623,19 +578,19 @@
       </MavenSettings>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.OperateFilesUtils" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ContactList2hbase" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ReadWriteUtil" />
-      <item index="3" class="java.lang.String" itemvalue="Maven.spark-etl [clean,package]" />
-      <item index="4" class="java.lang.String" itemvalue="Application.HBaseBasic02" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ContactList2hbase" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ReadWriteUtil" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.spark-etl [clean,package]" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HBaseBasic02" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CommunDetailsHandle" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Maven.spark-etl [clean,package]" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HBaseBasic02" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ContactList2hbase" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ReadWriteUtil" />
-        <item index="4" class="java.lang.String" itemvalue="Application.OperateFilesUtils" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CommunDetailsHandle" />
+        <item index="1" class="java.lang.String" itemvalue="Maven.spark-etl [clean,package]" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HBaseBasic02" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ContactList2hbase" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ReadWriteUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -665,7 +620,7 @@
       <workItem from="1502766580005" duration="69487000" />
       <workItem from="1502948863248" duration="459000" />
       <workItem from="1502949766074" duration="81214000" />
-      <workItem from="1503474955296" duration="65520000" />
+      <workItem from="1503474955296" duration="76116000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1503052435637</created>
@@ -678,11 +633,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239192000" />
+    <option name="totallyTimeSpent" value="249788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -694,7 +648,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2597826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22068231" sideWeight="0.49367088" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22068231" sideWeight="0.49367088" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -759,13 +713,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/json/sample.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/yylc/xfjr/json/Json2Hbase_.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/yylc/xfjr/test.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1122,8 +1069,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/KafkaConsumerSimple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="148">
+          <caret line="62" column="36" lean-forward="false" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/yylc/xfjr/util/CommunDetailsHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding />
         </state>
       </provider>
